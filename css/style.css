@@ -289,54 +289,36 @@ main {
 }
 .product-detail--card {
     width: 90%;
-    min-width: 288px;
+    min-width: 285px;
     max-width: 400px;
     height: 150px;
     margin: 15px auto;
     padding: 15px;
+    border-radius: 5px;
     background-color: var(--Warm-Black1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
-.product-detail--card .clock {
+.product-detail--card .icon-card  {
     display: inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url(../assets/icons/clock.svg);
-    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-}
-.product-detail--card .eye {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image: url(../assets/icons/eye.svg);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 
+.product-detail--card .clock {
+    background-image: url(./../assets/icons/clock.svg);
+}
+.product-detail--card .eye {
+    background-image: url(./../assets/icons/eye.svg);
+}
 .product-detail--card .dollar {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image: url(../assets/icons/dollar-sign.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(./../assets/icons/dollar-sign.svg);
 }
 .product-detail--card .check {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: 10px;
-    background-image: url(../assets/icons/check-circle.svg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(./../assets/icons/check-circle.svg);
 }
 .product--card-title {
     margin-bottom: 15px;
